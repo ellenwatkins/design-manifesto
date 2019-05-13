@@ -1,0 +1,88 @@
+body {
+   font-family: Quicksand, sans-serif; 
+}
+
+.nav-wrapper{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.headline{
+  margin: 8px;
+  font-family: Dosis;
+  font-size: 80px;
+}
+
+.headlineS{
+  font-size: 40px;
+}
+
+.elements{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.picHover, .cleanPic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position:relative;
+}
+
+.cleanPicHover{
+  visibility:hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  color: black;
+  font-size: 20px;
+}
+
+.cleanPicHover{
+  top: 30%;
+}
+
+.picHover:hover .cleanPic{
+  opacity: .2;
+}
+.picHover:hover .cleanPicHover{
+  visibility: visible;
+  opacity: 1;
+}
+
+#tinytext{
+  font-size:8px;
+  line-height:5px;
+}
+
+.designParagraph{
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+
+#goodJobDog{
+  width: 180px;
+}
+
+.squarePic{
+ border-radius: 0%; 
+}
+
+.picHover:hover .squarePic{
+  opacity: .1;
+  background: white;
+}
+
+#submitButton{
+  background: #4527a0; 
+}
+
+input{
+  text-align:center; 
+}
+
+.container{display:flex; justify-content: center;}
